@@ -41,6 +41,7 @@ incident-wrapper layer, no `parent_incident_id` indirection.
 | `allegation_summary` | string | 1–3 sentence factual summary |
 | `status` | string | `filed` \| `ongoing` \| `dismissed` \| `settled` \| `ruling_for_plaintiff` \| `ruling_for_defendant` \| `appealed` \| `voluntarily_dismissed` |
 | `status_detail` | string | Specific dates, ruling details, settlement terms if known; also where the script notes any uncertainty |
+| `settlement_amount_usd` | number \| null | Total dollar amount actually paid, as reported. Only meaningful when `status` is `settled`; `null` if settled but the amount isn't confirmed from sourcing, or not applicable. This is a structured mirror of a dollar figure that may also appear in prose in `status_detail` — kept in sync manually/by the update script so downstream consumers (e.g. the org README generator) can sum it without parsing free text. |
 | `last_updated` | ISO date | Most recent known development |
 | `sources` | array of strings | Source URLs — news coverage, not court-filing lookups (see Deliberate omissions) |
 | `content_hash` | string | `sha256:` hash of `allegation_summary + status_detail + status`, recomputed on every update |

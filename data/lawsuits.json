@@ -20,6 +20,7 @@
       "claim_type": "contract_procurement",
       "allegation_summary": "Filed by ACLU-WV, the Haslam Law Firm, and Glazer, Saad, Anderson immediately after Huntington City Council approved a $2.1 million Flock Safety ALPR contract in a contentious 6-4 vote; alleges the city failed to follow required procedures in awarding the contract, including improper authorization for a private company to use public property for the cameras.",
       "status": "filed",
+      "settlement_amount_usd": null,
       "status_detail": "Lawsuit filed July 14, 2026, same day as the council vote; ACLU-WV legal director indicated additional legal claims could follow beyond the procedural challenge.",
       "last_updated": "2026-08-04",
       "sources": [
@@ -49,6 +50,7 @@
       "claim_type": "fourth_amendment",
       "allegation_summary": "Aurora police used a Flock-style ALPR hot-list alert that misread a stolen motorcycle plate as matching Gilliam and her family's SUV; officers held Gilliam and four children, including minors, at gunpoint and handcuffed them face-down on pavement during a botched stolen-vehicle stop.",
       "status": "settled",
+      "settlement_amount_usd": 1900000,
       "status_detail": "City of Aurora settled with Gilliam for $1.9 million (settlement reported 2024, following a 2021 filing over a 2020 incident). Court/case number not confirmed from the sourcing reviewed for this entry. Most contemporaneous 2020-2021 coverage described the system only as a license-plate-reader hot-list match without naming the vendor; later retrospective reporting on Flock misuse (e.g. CNN, 2026) cites this case as a Flock example -- flagged for maintainer verification of the ALPR vendor.",
       "last_updated": "2026-08-04",
       "sources": [
@@ -79,6 +81,7 @@
       "claim_type": "mixed",
       "allegation_summary": "A Flock camera misread the \"7\" on Upchurch's license plate as a \"2\", falsely matching it to a stolen-vehicle hot list; Toledo police stopped Upchurch, and an officer released a police K9 that bit and injured him even though the truck was correctly his own, non-stolen vehicle.",
       "status": "settled",
+      "settlement_amount_usd": 35000,
       "status_detail": "Federal case Upchurch v. City of Toledo, et al., No. 3:25-cv-00711 (N.D. Ohio). Reported settlement of $35,000 with the city and an officer (2025).",
       "last_updated": "2026-08-04",
       "sources": [
@@ -108,6 +111,7 @@
       "claim_type": "fourth_amendment",
       "allegation_summary": "A Flock Safety camera misread the plaintiffs' license plate (ending in 2, misread as 7) as matching a stolen vehicle; Española police stopped, handcuffed, and detained Gonzales and her 12-year-old sister at gunpoint before discovering the error.",
       "status": "filed",
+      "settlement_amount_usd": null,
       "status_detail": "Filed January 3 (year approximate, ~2024) in New Mexico state district court. Resolution not confirmed from the sourcing reviewed.",
       "last_updated": "2026-08-04",
       "sources": [
@@ -136,6 +140,7 @@
       "claim_type": "fourth_amendment",
       "allegation_summary": "A Flock camera misread the letter \"H\" on Burkleo's license plate as \"M\" (a dirt-obscured character), falsely flagging his car as matching a wanted vehicle; Atherton police stopped Burkleo at gunpoint and ordered him to the ground before discovering the error.",
       "status": "settled",
+      "settlement_amount_usd": 45000,
       "status_detail": "Settled with the town and involved officers for $45,000 per news reporting; exact filing date, court, and case number not confirmed from sourcing reviewed. Atherton Police Department publicly denied wrongdoing.",
       "last_updated": "2026-08-04",
       "sources": [
@@ -164,6 +169,7 @@
       "claim_type": "fourth_amendment",
       "allegation_summary": "Then-17-year-old honor-roll student Adam Pacheco was pulled over and handcuffed at gunpoint by a New Mexico State Police officer based on inaccurate information tied to a Flock Safety camera alert while driving home from Pojoaque High School.",
       "status": "settled",
+      "settlement_amount_usd": 200000,
       "status_detail": "Federal case Pacheco v. City of Española, No. 1:23-cv-00593 (D.N.M.). Reporting indicates New Mexico State Police paid $200,000 in connection with the case; city-side resolution not separately confirmed from sourcing reviewed.",
       "last_updated": "2026-08-04",
       "sources": [
@@ -194,6 +200,7 @@
       "claim_type": "mixed",
       "allegation_summary": "Proposed class action alleging that San Francisco police's network of roughly 500 Flock Safety ALPR cameras constitutes \"warrantless and unreasonable\" mass surveillance in violation of the Fourth Amendment.",
       "status": "filed",
+      "settlement_amount_usd": null,
       "status_detail": "Filed as a proposed class action against the City and County of San Francisco and SFPD in N.D. Cal.; exact filing date and case number not confirmed from sourcing reviewed. NOTE FOR MAINTAINER: this is the closest verified match found for a suit naming the City/County of San Francisco itself -- I could not confirm a case captioned \"Green v. City and County of San Francisco\" as requested; please check the exact caption against the source article, or supply a link if you have one, before treating this as the correct entry.",
       "last_updated": "2026-08-04",
       "sources": [
@@ -222,6 +229,7 @@
       "claim_type": "fourth_amendment",
       "allegation_summary": "An automated license plate reader flagged Hofer's rental car as stolen based on a \"stale\" database entry -- the vehicle had already been recovered and returned to circulation -- and Contra Costa County Sheriff's deputies conducted a high-risk \"felony stop\" at gunpoint on Hofer and his brother without verifying the alert.",
       "status": "settled",
+      "settlement_amount_usd": 49500,
       "status_detail": "Federal civil-rights suit filed December 2018 against three Contra Costa County Sheriff's deputies (individual civil rights, warrantless search, and excessive force claims) over a November 25, 2018 stop. Contra Costa County settled for $49,500 (paid to Hofer in an August payout). ALPR vendor not confirmed as Flock Safety in sourcing reviewed -- Flock was newly founded in 2017 and this stop predates its market dominance; flagged for maintainer verification before treating as a confirmed Flock case.",
       "last_updated": "2026-08-04",
       "sources": [
@@ -251,6 +259,7 @@
       "claim_type": "data_broker_privacy",
       "allegation_summary": "Federal suit against Flock Safety alleging its ALPR network enables unauthorized mass collection and sharing of license-plate data, framed around privacy and data-broker-style claims; part of a wave of 2026 California suits over Flock sharing plate data with out-of-state and federal agencies.",
       "status": "filed",
+      "settlement_amount_usd": null,
       "status_detail": "Docket No. 3:26-cv-02382 (N.D. Cal.). Related to (but may be distinct from) a separate Gibbs Mura / Milberg PLLC class action filed February 26, 2026 in San Francisco Superior Court against Flock Safety over California ALPR Privacy Act violations (alleged sharing of SFPD's Flock data with out-of-state/federal agencies 1.6M+ times). Maintainer should confirm whether these are the same suit or two separate ones before treating this entry as fully resolved. Not on the user's original list -- added because it's a well-documented, on-topic suit found during this backfill pass.",
       "last_updated": "2026-08-04",
       "sources": [
