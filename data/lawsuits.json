@@ -1,7 +1,37 @@
 {
   "schema_version": 1,
-  "last_updated": null,
+  "last_updated": "2026-08-04",
   "notes": "Launched empty; data/lawsuits.json is populated by the weekly automated run (scripts/update_tracker.py). Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
-  "lawsuits": []
+  "lawsuits": [
+    {
+      "id": "jimison-v-huntington-2026-wv",
+      "case_name": "Jimison v. City of Huntington",
+      "court": "Cabell County Circuit Court",
+      "state": "WV",
+      "filed_date": "2026-07-14",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "City of Huntington, West Virginia"
+      ],
+      "plaintiffs": [
+        "Greg Jimison"
+      ],
+      "claim_type": "contract_procurement",
+      "allegation_summary": "Filed by ACLU-WV, the Haslam Law Firm, and Glazer, Saad, Anderson immediately after Huntington City Council approved a $2.1 million Flock Safety ALPR contract in a contentious 6-4 vote; alleges the city failed to follow required procedures in awarding the contract, including improper authorization for a private company to use public property for the cameras.",
+      "status": "filed",
+      "status_detail": "Lawsuit filed July 14, 2026, same day as the council vote; ACLU-WV legal director indicated additional legal claims could follow beyond the procedural challenge.",
+      "last_updated": "2026-08-04",
+      "sources": [
+        "https://www.wvgazettemail.com/news/legal_affairs/legal-issues-are-numerous-huntington-resident-files-lawsuit-over-flock-safety-contract/article_292f02d0-8d31-468e-a06b-659e3939af1e.html",
+        "https://www.herald-dispatch.com/news/huntington-resident-files-lawsuit-over-flock-safety-contract/article_bcd11ae1-b6f9-46a9-b525-f9d2b08a7f46.html",
+        "https://wvmetronews.com/2026/07/16/city-of-huntington-hit-with-lawsuit-from-aclu-others-over-2-1-million-flock-safety-contract/",
+        "https://wchstv.com/news/local/huntington-hit-with-lawsuit-days-after-approving-contract-with-flock-safety"
+      ],
+      "content_hash": "sha256:f228193b08afec6461ffba6bfa7b5fcfe23efe244c6cddb1b8565fade7e07f68",
+      "first_seen_at": "2026-08-04T03:29:01.807348+00:00",
+      "last_seen_at": "2026-08-04T03:29:01.807348+00:00",
+      "verified": false
+    }
+  ]
 }
