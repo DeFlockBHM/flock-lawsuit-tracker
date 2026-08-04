@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "last_updated": null,
+  "notes": "Launched empty; data/lawsuits.json is populated by the weekly automated run (scripts/update_tracker.py). Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
+  "aggregate_trackers": [],
+  "lawsuits": []
+}
