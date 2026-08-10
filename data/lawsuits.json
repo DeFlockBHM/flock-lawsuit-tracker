@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-10",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -96,20 +96,20 @@
     },
     {
       "id": "gonzales-v-espanola-2024-nm",
-      "case_name": "Gonzales v. City of Española",
+      "case_name": "Gonzales v. City of Espa\u00f1ola",
       "court": "First Judicial District Court, Rio Arriba County, NM (case number not confirmed)",
       "state": "NM",
       "filed_date": "2024-01-03",
       "defendant_type": "deploying_agency",
       "defendants": [
-        "City of Española, New Mexico"
+        "City of Espa\u00f1ola, New Mexico"
       ],
       "plaintiffs": [
         "Jaclynn Gonzales",
         "Unnamed minor sister (12, identified in reporting by initials D.D.)"
       ],
       "claim_type": "fourth_amendment",
-      "allegation_summary": "A Flock Safety camera misread the plaintiffs' license plate (ending in 2, misread as 7) as matching a stolen vehicle; Española police stopped, handcuffed, and detained Gonzales and her 12-year-old sister at gunpoint before discovering the error.",
+      "allegation_summary": "A Flock Safety camera misread the plaintiffs' license plate (ending in 2, misread as 7) as matching a stolen vehicle; Espa\u00f1ola police stopped, handcuffed, and detained Gonzales and her 12-year-old sister at gunpoint before discovering the error.",
       "status": "filed",
       "settlement_amount_usd": null,
       "status_detail": "Filed January 3 (year approximate, ~2024) in New Mexico state district court. Resolution not confirmed from the sourcing reviewed.",
@@ -154,13 +154,13 @@
     },
     {
       "id": "pacheco-v-espanola-2023-nm",
-      "case_name": "Pacheco v. City of Española",
+      "case_name": "Pacheco v. City of Espa\u00f1ola",
       "court": "U.S. District Court for the District of New Mexico",
       "state": "NM",
       "filed_date": "2023",
       "defendant_type": "both",
       "defendants": [
-        "City of Española, New Mexico",
+        "City of Espa\u00f1ola, New Mexico",
         "New Mexico State Police"
       ],
       "plaintiffs": [
@@ -170,7 +170,7 @@
       "allegation_summary": "Then-17-year-old honor-roll student Adam Pacheco was pulled over and handcuffed at gunpoint by a New Mexico State Police officer based on inaccurate information tied to a Flock Safety camera alert while driving home from Pojoaque High School.",
       "status": "settled",
       "settlement_amount_usd": 200000,
-      "status_detail": "Federal case Pacheco v. City of Española, No. 1:23-cv-00593 (D.N.M.). Reporting indicates New Mexico State Police paid $200,000 in connection with the case; city-side resolution not separately confirmed from sourcing reviewed.",
+      "status_detail": "Federal case Pacheco v. City of Espa\u00f1ola, No. 1:23-cv-00593 (D.N.M.). Reporting indicates New Mexico State Police paid $200,000 in connection with the case; city-side resolution not separately confirmed from sourcing reviewed.",
       "last_updated": "2026-08-04",
       "sources": [
         "https://www.courtlistener.com/docket/67623701/parties/pacheco-v-city-of-espanola/",
@@ -271,6 +271,35 @@
       "content_hash": "sha256:fb5b5be8e81c9e45e0a39dbd992968cd2f376f1383e640c68e38b9bad15fa783",
       "first_seen_at": "2026-08-04T00:00:00.000000+00:00",
       "last_seen_at": "2026-08-04T00:00:00.000000+00:00",
+      "verified": false
+    },
+    {
+      "id": "grimmett-v-wichita-2026-ks",
+      "case_name": "Grimmett v. City of Wichita",
+      "court": "Sedgwick County District Court",
+      "state": "KS",
+      "filed_date": "2026-07-30",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "City of Wichita"
+      ],
+      "plaintiffs": [
+        "Mason Grimmett"
+      ],
+      "claim_type": "fourth_amendment",
+      "allegation_summary": "Wichita resident and privacy activist Mason Grimmett alleges the city's roughly 200 Flock Safety ALPR cameras, capturing about 900,000 vehicle photos monthly, constitute a warrantless dragnet surveillance program that violates the privacy protections of Section 15 of the Kansas Constitution Bill of Rights. The suit seeks a declaration that the program is unconstitutional and an order requiring removal of the cameras.",
+      "status": "filed",
+      "status_detail": "Petition filed July 30, 2026 in Sedgwick County District Court by the Kansas Justice Institute; cites Wichita's own data showing 904,603 license plate searches in a single month (June 26-July 27, 2026) and prior officer misuse cases (e.g., former Kechi Police lieutenant convicted of using Flock data to stalk his estranged wife).",
+      "last_updated": "2026-08-10",
+      "sources": [
+        "https://reason.com/2026/07/31/kansas-lawsuit-alprs-turn-a-license-plate-into-the-functional-equivalent-of-a-gps-tracking-device/",
+        "https://www.kcur.org/news/2026-08-01/kansas-flock-license-plate-camera-lawsuit-wichita-police",
+        "https://www.carscoops.com/2026/08/wichita-flock-camera-lawsuit/",
+        "https://sentinelksmo.org/kji-sue-wichita-flock-alpr-surveillance/"
+      ],
+      "content_hash": "sha256:eb90ad7fd4a37464fe5228cb0db8b340cb00561719aa302fad66e0b1d75d2527",
+      "first_seen_at": "2026-08-10T16:39:13.233951+00:00",
+      "last_seen_at": "2026-08-10T16:39:13.233951+00:00",
       "verified": false
     }
   ]
