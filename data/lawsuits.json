@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-17",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -300,6 +300,41 @@
       "content_hash": "sha256:eb90ad7fd4a37464fe5228cb0db8b340cb00561719aa302fad66e0b1d75d2527",
       "first_seen_at": "2026-08-10T16:39:13.233951+00:00",
       "last_seen_at": "2026-08-10T16:39:13.233951+00:00",
+      "verified": false
+    },
+    {
+      "id": "pizzarelli-v-cumberland-2026-ri",
+      "case_name": "Pizzarelli v. Town of Cumberland",
+      "court": "U.S. District Court (D.R.I.)",
+      "state": "RI",
+      "filed_date": "2026-06",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "Town of Cumberland",
+        "Cumberland Police Department",
+        "Chief Matthew Benson",
+        "Sgt. Brandon Correia",
+        "Patrolman Jack Halloran",
+        "Mayor Jeffrey Mutter"
+      ],
+      "plaintiffs": [
+        "Eva Pizzarelli"
+      ],
+      "claim_type": "other",
+      "allegation_summary": "Plaintiff alleges she was wrongfully identified via a Flock ALPR camera image (which reportedly captured drivers/passengers, not just plates) and was subsequently falsely arrested and prosecuted by Cumberland, RI police following a traffic stop and car chase involving a different vehicle.",
+      "status": "filed",
+      "status_detail": "Filed in U.S. District Court in June 2026; case surfaced publicly and drew ACLU of Rhode Island pressure on the town council to cancel its Flock contract starting the week of Aug 7, 2026. No ruling reported yet.",
+      "last_updated": "2026-08-17",
+      "sources": [
+        "https://www.riaclu.org/news/flock-safety-image-led-to-false-arrest-aclu-urges-cumberland-cancel-contract/",
+        "https://www.wpri.com/news/local-news/blackstone-valley/woman-sues-cumberland-for-alleged-wrongful-arrest-tied-to-flock-cameras/",
+        "https://www.valleybreeze.com/news/aclu-calls-on-cumberland-council-to-discontinue-use-of-flock-cameras-following-lawsuit-over-alleged/article_0b59b849-859d-498b-8f10-cd1e2cbcc0ac.html",
+        "https://nclawyersweekly.com/2026/08/11/r-i-woman-says-flock-camera-misidentified-her-leading-to-arrest/",
+        "https://www.golocalprov.com/news/after-flock-image-led-to-false-arrest-aclu-urges-cumberland-council-to-cancel-contract"
+      ],
+      "content_hash": "sha256:a472d3c507eb0f7213e44c45f30e40c375ce37406b4d45d338286c284a271f0c",
+      "first_seen_at": "2026-08-17T14:57:52.759925+00:00",
+      "last_seen_at": "2026-08-17T14:57:52.759925+00:00",
       "verified": false
     }
   ]
