@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-24",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -335,6 +335,61 @@
       "content_hash": "sha256:a472d3c507eb0f7213e44c45f30e40c375ce37406b4d45d338286c284a271f0c",
       "first_seen_at": "2026-08-17T14:57:52.759925+00:00",
       "last_seen_at": "2026-08-17T14:57:52.759925+00:00",
+      "verified": false
+    },
+    {
+      "id": "tewolde-v-genesee-county-2026-mi",
+      "case_name": "Tewolde v. Genesee County",
+      "court": "Michigan state court (county circuit court, exact court not specified in sources)",
+      "state": "MI",
+      "filed_date": "2026-08-18",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "Genesee County, Michigan",
+        "Genesee County Board of Commissioners"
+      ],
+      "plaintiffs": [
+        "Tewolde"
+      ],
+      "claim_type": "public_records",
+      "allegation_summary": "Genesee County resident Tewolde, represented by the Mackinac Center Legal Foundation, sued the county after it denied a FOIA request seeking records about its 30 Flock ALPR cameras, including the Flock contract and search logs, with the county claiming a private vendor (Flock) owns the data despite the contract stating otherwise.",
+      "status": "filed",
+      "status_detail": "Lawsuit filed this week (reported ~Aug 20-21, 2026); seeks court order compelling county to turn over requested records.",
+      "last_updated": "2026-08-24",
+      "sources": [
+        "https://www.washingtonexaminer.com/op-eds/4689877/audit-logs-request-genesee-county-michigan-flock-safety-camera-lawsuit-for-data/",
+        "https://www.woodtv.com/news/michigan/county-sued-over-access-to-flock-camera-records/",
+        "https://www.yahoo.com/news/us/articles/county-sued-over-access-flock-173135283.html"
+      ],
+      "content_hash": "sha256:a5e5ccd9de52cca608b5395d7d46eb0060d26575e28e55fee04fe4bb944f61a1",
+      "first_seen_at": "2026-08-24T16:03:39.392627+00:00",
+      "last_seen_at": "2026-08-24T16:03:39.392627+00:00",
+      "verified": false
+    },
+    {
+      "id": "rodriguez-v-sedro-woolley-2026-wa",
+      "case_name": "Rodriguez v. City of Sedro-Woolley",
+      "court": "Washington state court (not specified)",
+      "state": "WA",
+      "filed_date": "unknown (part of series of requests filed 2024-2025)",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "City of Sedro-Woolley"
+      ],
+      "plaintiffs": [
+        "Jose Rodriguez"
+      ],
+      "claim_type": "public_records",
+      "allegation_summary": "Part of a series of Washington Public Records Act suits by resident Jose Rodriguez alleging local governments failed to timely release Flock ALPR camera images/data he requested, which were often deleted under 30-day retention policies before requests could be fulfilled.",
+      "status": "settled",
+      "status_detail": "Sedro-Woolley City Council approved a $40,000 settlement last week (reported Aug 20, 2026) for failing to release camera data/images; part of over $300,000 in similar WA settlements since 2025 tied to Rodriguez's requests.",
+      "last_updated": "2026-08-24",
+      "sources": [
+        "https://www.cascadiadaily.com/2026/aug/20/a-man-has-sued-local-governments-in-wa-over-flock-records-hes-gotten-300k/"
+      ],
+      "content_hash": "sha256:ea198466487d92156a0605a2fdba4674ad34ce99d012aaa3be7669aca4fe1c87",
+      "first_seen_at": "2026-08-24T16:03:39.392627+00:00",
+      "last_seen_at": "2026-08-24T16:03:39.392627+00:00",
       "verified": false
     }
   ]
