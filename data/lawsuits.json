@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-31",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -382,14 +382,17 @@
       "claim_type": "public_records",
       "allegation_summary": "Part of a series of Washington Public Records Act suits by resident Jose Rodriguez alleging local governments failed to timely release Flock ALPR camera images/data he requested, which were often deleted under 30-day retention policies before requests could be fulfilled.",
       "status": "settled",
-      "status_detail": "Sedro-Woolley City Council approved a $40,000 settlement last week (reported Aug 20, 2026) for failing to release camera data/images; part of over $300,000 in similar WA settlements since 2025 tied to Rodriguez's requests.",
-      "last_updated": "2026-08-24",
+      "status_detail": "Confirmed via late-August 2026 news coverage: case involved both Sedro-Woolley and Stanwood, WA. A Skagit County Superior Court judge ruled July 16, 2026 that both cities wrongfully withheld Flock camera footage from a records requester (Jose Rodriguez). Parties settled for $80,000 total, split $40,000/$40,000 between the two cities; Stanwood approved its portion Aug. 13, 2026 and Sedro-Woolley approved its portion around the same week.",
+      "last_updated": "2026-08-31",
       "sources": [
-        "https://www.cascadiadaily.com/2026/aug/20/a-man-has-sued-local-governments-in-wa-over-flock-records-hes-gotten-300k/"
+        "https://www.heraldnet.com/2026/08/14/stanwood-sedro-woolley-settle-flock-records-case-for-80k/",
+        "https://www.cascadiadaily.com/2026/aug/20/a-man-has-sued-local-governments-in-wa-over-flock-records-hes-gotten-300k/",
+        "https://www.goskagit.com/scnews/stanwood-to-pay-40k-share-in-flock-camera-case-settlement/article_feef1a4e-f00c-45e0-b834-70bf4acd0f18.html",
+        "https://www.motorbiscuit.com/flock-camera-records-requests-leave-police-agencies-paying-oregon-man-300000/"
       ],
-      "content_hash": "sha256:ea198466487d92156a0605a2fdba4674ad34ce99d012aaa3be7669aca4fe1c87",
+      "content_hash": "sha256:3bfc54a3681d25df0bd4673f8ef1da73f6c6bb138073e6b12ce5586bb90315bc",
       "first_seen_at": "2026-08-24T16:03:39.392627+00:00",
-      "last_seen_at": "2026-08-24T16:03:39.392627+00:00",
+      "last_seen_at": "2026-08-31T14:05:48.085527+00:00",
       "verified": false
     }
   ]
