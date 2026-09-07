@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-07",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -393,6 +393,36 @@
       "content_hash": "sha256:3bfc54a3681d25df0bd4673f8ef1da73f6c6bb138073e6b12ce5586bb90315bc",
       "first_seen_at": "2026-08-24T16:03:39.392627+00:00",
       "last_seen_at": "2026-08-31T14:05:48.085527+00:00",
+      "verified": false
+    },
+    {
+      "id": "schulte-v-flock-2026-ga",
+      "case_name": "Schulte v. Flock Group Inc.",
+      "court": "N.D. Ga.",
+      "state": "GA",
+      "filed_date": "2026-08-25",
+      "defendant_type": "flock_inc",
+      "defendants": [
+        "Flock Group Inc. (Flock Safety)"
+      ],
+      "plaintiffs": [
+        "Grace Schulte"
+      ],
+      "claim_type": "mixed",
+      "allegation_summary": "Nationwide proposed class action alleging Flock's 120,000+ camera ALPR network enables 'rampant' misuse by law enforcement for stalking/personal surveillance, produces inaccurate license-plate reads at scale, and that Flock has known of and downplayed such misuse as rare 'bad apple' conduct. Claims include invasion of privacy, negligence, negligent design, failure to warn, and intentional infliction of emotional distress.",
+      "status": "filed",
+      "status_detail": "Filed Aug. 25, 2026 in U.S. District Court for the Northern District of Georgia. Seeks to represent a nationwide class of all individuals whose license plate data has been collected by Flock since Jan. 1, 2024. As of early September 2026, Flock had not yet filed a formal response to the complaint.",
+      "last_updated": "2026-09-07",
+      "sources": [
+        "https://www.atlantanewsfirst.com/2026/09/04/georgia-woman-sues-flock-safety-claims-aggressive-license-plate-tracking/",
+        "https://www.foxcarolina.com/2026/09/02/rampant-misuse-federal-class-action-lawsuit-filed-against-flock/",
+        "https://www.classaction.org/news/class-action-lawsuit-alleges-flock-enables-law-enforcement-personnel-to-misuse-vehicle-location-info-for-surveillance-stalking",
+        "https://www.wrdw.com/2026/09/03/new-details-georgians-class-action-lawsuit-against-flock/",
+        "https://www.11alive.com/article/news/state/georgia-woman-files-for-class-action-lawsuit-flock/85-172cb786-cc72-431b-a402-34c149b8ecab"
+      ],
+      "content_hash": "sha256:d52f8b162897b31cb286f50c7d0529a886e2157974494d1b53f8c5e9331c7e55",
+      "first_seen_at": "2026-09-07T18:35:10.410205+00:00",
+      "last_seen_at": "2026-09-07T18:35:10.410205+00:00",
       "verified": false
     }
   ]
