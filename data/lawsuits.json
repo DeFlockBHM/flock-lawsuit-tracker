@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-14",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -411,18 +411,43 @@
       "claim_type": "mixed",
       "allegation_summary": "Nationwide proposed class action alleging Flock's 120,000+ camera ALPR network enables 'rampant' misuse by law enforcement for stalking/personal surveillance, produces inaccurate license-plate reads at scale, and that Flock has known of and downplayed such misuse as rare 'bad apple' conduct. Claims include invasion of privacy, negligence, negligent design, failure to warn, and intentional infliction of emotional distress.",
       "status": "filed",
-      "status_detail": "Filed Aug. 25, 2026 in U.S. District Court for the Northern District of Georgia. Seeks to represent a nationwide class of all individuals whose license plate data has been collected by Flock since Jan. 1, 2024. As of early September 2026, Flock had not yet filed a formal response to the complaint.",
-      "last_updated": "2026-09-07",
+      "status_detail": "Filed Aug. 25, 2026 in N.D. Ga. Additional reporting (Sept 2-4, 2026) clarifies it is a five-count complaint (invasion of privacy, negligence, negligent design, failure to warn, intentional infliction of emotional distress) seeking nationwide class certification for all US individuals scanned since Jan. 1, 2024. Flock had not yet filed a formal response as of early September; Flock has since implemented mandatory multifactor authentication changes reportedly in response to mounting scrutiny.",
+      "last_updated": "2026-09-14",
       "sources": [
-        "https://www.atlantanewsfirst.com/2026/09/04/georgia-woman-sues-flock-safety-claims-aggressive-license-plate-tracking/",
-        "https://www.foxcarolina.com/2026/09/02/rampant-misuse-federal-class-action-lawsuit-filed-against-flock/",
-        "https://www.classaction.org/news/class-action-lawsuit-alleges-flock-enables-law-enforcement-personnel-to-misuse-vehicle-location-info-for-surveillance-stalking",
         "https://www.wrdw.com/2026/09/03/new-details-georgians-class-action-lawsuit-against-flock/",
-        "https://www.11alive.com/article/news/state/georgia-woman-files-for-class-action-lawsuit-flock/85-172cb786-cc72-431b-a402-34c149b8ecab"
+        "https://www.atlantanewsfirst.com/2026/09/04/georgia-woman-sues-flock-safety-claims-aggressive-license-plate-tracking/",
+        "https://www.yahoo.com/news/us/articles/flock-safety-hit-nationwide-class-110000594.html",
+        "https://www.foxcarolina.com/2026/09/02/rampant-misuse-federal-class-action-lawsuit-filed-against-flock/"
       ],
-      "content_hash": "sha256:d52f8b162897b31cb286f50c7d0529a886e2157974494d1b53f8c5e9331c7e55",
+      "content_hash": "sha256:a56ced851aebad9376514aae310402da028e24916c6c9c1207026ba12e3d8622",
       "first_seen_at": "2026-09-07T18:35:10.410205+00:00",
-      "last_seen_at": "2026-09-07T18:35:10.410205+00:00",
+      "last_seen_at": "2026-09-14T19:01:19.534258+00:00",
+      "verified": false
+    },
+    {
+      "id": "securenet-v-flock-2026-de",
+      "case_name": "SecureNet Solutions Group LLC v. Flock Group Inc.",
+      "court": "D. Del.",
+      "state": "DE",
+      "filed_date": "2026-09-10",
+      "defendant_type": "flock_inc",
+      "defendants": [
+        "Flock Group Inc."
+      ],
+      "plaintiffs": [
+        "SecureNet Solutions Group LLC"
+      ],
+      "claim_type": "other",
+      "allegation_summary": "Patent-infringement suit alleging Flock's camera systems and software (Falcon LPR cameras, Vehicle Fingerprint, FlockOS Real-Time Crime Center, Enhanced LPR software, Flock Safety Platform, and Raven audio device) infringe seven patents related to multi-sensor surveillance data analysis systems.",
+      "status": "filed",
+      "status_detail": "Complaint filed in U.S. District Court for the District of Delaware seeking damages for alleged patent infringement.",
+      "last_updated": "2026-09-14",
+      "sources": [
+        "https://news.bloomberglaw.com/ip-law/flock-safetys-surveillance-system-targeted-in-new-patent-suit"
+      ],
+      "content_hash": "sha256:a6d93db03cfadeb9e751bea4cc970f27f1443d16e8294f13f756e5421f165ce9",
+      "first_seen_at": "2026-09-14T19:01:19.534258+00:00",
+      "last_seen_at": "2026-09-14T19:01:19.534258+00:00",
       "verified": false
     }
   ]
