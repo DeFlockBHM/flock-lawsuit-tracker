@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-21",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
