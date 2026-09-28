@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-28",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -448,6 +448,64 @@
       "content_hash": "sha256:a6d93db03cfadeb9e751bea4cc970f27f1443d16e8294f13f756e5421f165ce9",
       "first_seen_at": "2026-09-14T19:01:19.534258+00:00",
       "last_seen_at": "2026-09-14T19:01:19.534258+00:00",
+      "verified": false
+    },
+    {
+      "id": "negrete-gonzalez-v-uc-regents-2026-ca",
+      "case_name": "Negrete-Gonzalez (Ellis Collective) v. Regents of the University of California",
+      "court": "Superior Court of Alameda County",
+      "state": "CA",
+      "filed_date": "2026-08-28",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "University of California Board of Regents (UC Berkeley)"
+      ],
+      "plaintiffs": [
+        "Daniel Negrete-Gonzalez (The Ellis Collective)"
+      ],
+      "claim_type": "public_records",
+      "allegation_summary": "Suit alleges UC Berkeley failed to adequately respond to a Feb. 17, 2026 California Public Records Act request seeking details about UC Berkeley's Flock ALPR data-sharing settings, audit logs, and the list of agencies (including reportedly CBP) that received shared plate data.",
+      "status": "filed",
+      "status_detail": "Filed Aug. 28, 2026 in Alameda County Superior Court; has prompted student protests and calls to end UC Berkeley's Flock contract ('DeFlock').",
+      "last_updated": "2026-09-28",
+      "sources": [
+        "https://berkeleyhighjacket.com/2026/news/ucb-sued-over-flock-cameras"
+      ],
+      "content_hash": "sha256:725abbe35de3b024e586f0f77e3839cfdb7808d201fe9b914ae5a9755996f3e5",
+      "first_seen_at": "2026-09-28T20:22:54.011250+00:00",
+      "last_seen_at": "2026-09-28T20:22:54.011250+00:00",
+      "verified": false
+    },
+    {
+      "id": "schmidt-v-norfolk-2024-va",
+      "case_name": "Schmidt v. City of Norfolk",
+      "court": "E.D. Va. (appeal: 4th Cir., No. 26-1227)",
+      "state": "VA",
+      "filed_date": "2024-10-01",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "City of Norfolk",
+        "Norfolk Police Department",
+        "Norfolk Police Chief"
+      ],
+      "plaintiffs": [
+        "Lee Schmidt",
+        "Crystal Arrington"
+      ],
+      "claim_type": "fourth_amendment",
+      "allegation_summary": "Institute for Justice-represented plaintiffs allege Norfolk's 176+ Flock ALPR cameras create a warrantless surveillance dragnet that tracked one plaintiff 526 times and another 849 times in about four months, violating the Fourth Amendment.",
+      "status": "appealed",
+      "status_detail": "District court (Judge Mark Davis) ruled for the City of Norfolk in late January/early February 2026, finding no Fourth Amendment violation and dismissing the case days before a scheduled bench trial; plaintiffs appealed to the Fourth Circuit (No. 26-1227). On September 21, 2026, the ACLU, ACLU of Nevada, and the Innocence Project (with EFF) filed an amicus brief in the appeal.",
+      "last_updated": "2026-09-28",
+      "sources": [
+        "https://www.aclu.org/campaigns-initiatives/get-the-flock-out",
+        "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country",
+        "https://deflockilm.org/norfolk-flock-lawsuit-fourth-amendment/",
+        "https://ekhbary.com/news/1769675695-15238.html"
+      ],
+      "content_hash": "sha256:a1c92b7a8ec3e5c1241927cb3e91020bd06f94a57cf02de72856deb00f53d8de",
+      "first_seen_at": "2026-09-28T20:22:54.011250+00:00",
+      "last_seen_at": "2026-09-28T20:22:54.011250+00:00",
       "verified": false
     }
   ]
