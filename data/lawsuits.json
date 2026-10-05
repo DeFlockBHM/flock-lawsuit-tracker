@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-10-05",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -466,14 +466,14 @@
       "claim_type": "public_records",
       "allegation_summary": "Suit alleges UC Berkeley failed to adequately respond to a Feb. 17, 2026 California Public Records Act request seeking details about UC Berkeley's Flock ALPR data-sharing settings, audit logs, and the list of agencies (including reportedly CBP) that received shared plate data.",
       "status": "filed",
-      "status_detail": "Filed Aug. 28, 2026 in Alameda County Superior Court; has prompted student protests and calls to end UC Berkeley's Flock contract ('DeFlock').",
-      "last_updated": "2026-09-28",
+      "status_detail": "Confirmed filed Aug. 28, 2026 in Alameda County Superior Court; alleges UC Berkeley failed to adequately respond to a Feb. 17, 2026 CPRA request for records on UCPD's Flock ALPR data-sharing practices, including sharing with CBP in possible violation of SB 34.",
+      "last_updated": "2026-10-05",
       "sources": [
         "https://berkeleyhighjacket.com/2026/news/ucb-sued-over-flock-cameras"
       ],
-      "content_hash": "sha256:725abbe35de3b024e586f0f77e3839cfdb7808d201fe9b914ae5a9755996f3e5",
+      "content_hash": "sha256:a25bc27b6d34334d4134e91cfb4258b7bd9cd5999012dff74a6d3635f2f9d518",
       "first_seen_at": "2026-09-28T20:22:54.011250+00:00",
-      "last_seen_at": "2026-09-28T20:22:54.011250+00:00",
+      "last_seen_at": "2026-10-05T21:21:31.384428+00:00",
       "verified": false
     },
     {
@@ -506,6 +506,36 @@
       "content_hash": "sha256:a1c92b7a8ec3e5c1241927cb3e91020bd06f94a57cf02de72856deb00f53d8de",
       "first_seen_at": "2026-09-28T20:22:54.011250+00:00",
       "last_seen_at": "2026-09-28T20:22:54.011250+00:00",
+      "verified": false
+    },
+    {
+      "id": "umemoto-v-westchester-county-2026-ny",
+      "case_name": "Umemoto v. Westchester County Police Department",
+      "court": "Westchester County Supreme Court",
+      "state": "NY",
+      "filed_date": "2026-06-09",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "Westchester County Police Department",
+        "Westchester County"
+      ],
+      "plaintiffs": [
+        "Lora Nelson",
+        "Unnamed (3 additional named plaintiffs)"
+      ],
+      "claim_type": "mixed",
+      "allegation_summary": "Proposed class action alleging Westchester County's roughly 575-camera ALPR network amassed about 1.6 billion plate scans without proper legislative authorization and shared the data with more than 50 outside agencies, including ICE, in violation of the New York State Constitution.",
+      "status": "filed",
+      "status_detail": "Filed June 9, 2026 in Westchester County Supreme Court by NYCLU, the Policing Project at NYU Law, the Knight First Amendment Institute, and Freshfields LLP. Seeks a declaration that the program is unconstitutional and an injunction halting operation. Newly identified via Oct. 2026 coverage of related Rockland County Flock opposition; no docket activity reported in the last 7-10 days.",
+      "last_updated": "2026-10-05",
+      "sources": [
+        "https://fortune.com/2026/06/11/westchester-license-plate-reader-ice-surveillance-lawsuit/",
+        "https://www.recordinglaw.com/news/westchester-license-plate-reader-lawsuit/",
+        "https://hoodline.com/2026/10/rockland-activists-target-flock-cameras-as-clarkstown-s-14-camera-network-draws-fire/"
+      ],
+      "content_hash": "sha256:b258cd038b708e74d1a4f6ee4db169b2195f97d9830bc3e0d69033a8672adeda",
+      "first_seen_at": "2026-10-05T21:21:31.384428+00:00",
+      "last_seen_at": "2026-10-05T21:21:31.384428+00:00",
       "verified": false
     }
   ]
