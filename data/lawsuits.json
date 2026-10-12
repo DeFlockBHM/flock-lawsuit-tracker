@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-12",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -258,19 +258,18 @@
       ],
       "claim_type": "data_broker_privacy",
       "allegation_summary": "Federal suit against Flock Safety alleging its ALPR network enables unauthorized mass collection and sharing of license-plate data, framed around privacy and data-broker-style claims; part of a wave of 2026 California suits over Flock sharing plate data with out-of-state and federal agencies.",
-      "status": "filed",
+      "status": "ongoing",
       "settlement_amount_usd": null,
-      "status_detail": "Docket No. 3:26-cv-02382 (N.D. Cal.). Related to (but may be distinct from) a separate Gibbs Mura / Milberg PLLC class action filed February 26, 2026 in San Francisco Superior Court against Flock Safety over California ALPR Privacy Act violations (alleged sharing of SFPD's Flock data with out-of-state/federal agencies 1.6M+ times). Maintainer should confirm whether these are the same suit or two separate ones before treating this entry as fully resolved. Not on the user's original list -- added because it's a well-documented, on-topic suit found during this backfill pass.",
-      "last_updated": "2026-08-04",
+      "status_detail": "At a Sept. 24, 2026 hearing in the consolidated In re Flock Group Inc. ALPR Litigation, Judge Vince Chhabria signaled plaintiffs likely lack Article III standing under California's ALPR law to proceed in federal court and indicated the case would likely be remanded to state court; a case management conference was set for Oct. 9, 2026 with no written ruling confirmed yet.",
+      "last_updated": "2026-10-12",
       "sources": [
-        "https://dockets.justia.com/docket/california/candce/3:2026cv02382/466149",
-        "https://courthousenews.com/california-drivers-accuse-flock-safety-of-sharing-data-with-federal-and-out-of-state-agencies/",
-        "https://sfist.com/2026/02/28/lawsuit-says-flock-allowed-out-of-state-agencies-access-to-sfpd-database-1-6-million-times/",
-        "https://www.businesswire.com/news/home/20260227692233/en/Flock-License-Plate-Cameras-Face-Class-Action-Lawsuit-by-Gibbs-Mura-A-Law-Group"
+        "https://news.bloomberglaw.com/litigation/flock-privacy-suit-appears-headed-back-to-california-state-court",
+        "https://www.courthousenews.com/flock-data-sharing-suit-likely-headed-back-to-state-court/",
+        "https://settlementinsight.com/flock-safety-lawsuit"
       ],
-      "content_hash": "sha256:fb5b5be8e81c9e45e0a39dbd992968cd2f376f1383e640c68e38b9bad15fa783",
+      "content_hash": "sha256:44252fba15ae2dbd04a317a5941425941d6e021e131e79dfa466caf4f0b0b23f",
       "first_seen_at": "2026-08-04T00:00:00.000000+00:00",
-      "last_seen_at": "2026-08-04T00:00:00.000000+00:00",
+      "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
       "verified": false
     },
     {
@@ -410,18 +409,15 @@
       ],
       "claim_type": "mixed",
       "allegation_summary": "Nationwide proposed class action alleging Flock's 120,000+ camera ALPR network enables 'rampant' misuse by law enforcement for stalking/personal surveillance, produces inaccurate license-plate reads at scale, and that Flock has known of and downplayed such misuse as rare 'bad apple' conduct. Claims include invasion of privacy, negligence, negligent design, failure to warn, and intentional infliction of emotional distress.",
-      "status": "filed",
-      "status_detail": "Filed Aug. 25, 2026 in N.D. Ga. Additional reporting (Sept 2-4, 2026) clarifies it is a five-count complaint (invasion of privacy, negligence, negligent design, failure to warn, intentional infliction of emotional distress) seeking nationwide class certification for all US individuals scanned since Jan. 1, 2024. Flock had not yet filed a formal response as of early September; Flock has since implemented mandatory multifactor authentication changes reportedly in response to mounting scrutiny.",
-      "last_updated": "2026-09-14",
+      "status": "ongoing",
+      "status_detail": "Flock was served September 1, 2026; the judge extended Flock's deadline to answer or otherwise respond to October 30, 2026.",
+      "last_updated": "2026-10-12",
       "sources": [
-        "https://www.wrdw.com/2026/09/03/new-details-georgians-class-action-lawsuit-against-flock/",
-        "https://www.atlantanewsfirst.com/2026/09/04/georgia-woman-sues-flock-safety-claims-aggressive-license-plate-tracking/",
-        "https://www.yahoo.com/news/us/articles/flock-safety-hit-nationwide-class-110000594.html",
-        "https://www.foxcarolina.com/2026/09/02/rampant-misuse-federal-class-action-lawsuit-filed-against-flock/"
+        "https://settlementinsight.com/flock-safety-lawsuit"
       ],
-      "content_hash": "sha256:a56ced851aebad9376514aae310402da028e24916c6c9c1207026ba12e3d8622",
+      "content_hash": "sha256:0b77b1671e7dfe3837ed81e35c2bb9cbd46ed5f08454de53c438fa8250d7a7d2",
       "first_seen_at": "2026-09-07T18:35:10.410205+00:00",
-      "last_seen_at": "2026-09-14T19:01:19.534258+00:00",
+      "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
       "verified": false
     },
     {
@@ -536,6 +532,98 @@
       "content_hash": "sha256:b258cd038b708e74d1a4f6ee4db169b2195f97d9830bc3e0d69033a8672adeda",
       "first_seen_at": "2026-10-05T21:21:31.384428+00:00",
       "last_seen_at": "2026-10-05T21:21:31.384428+00:00",
+      "verified": false
+    },
+    {
+      "id": "elser-v-columbine-valley-2026-co",
+      "case_name": "Elser v. Flock Safety, Inc., et al.",
+      "court": "U.S. District Court for the District of Colorado",
+      "state": "CO",
+      "filed_date": "2026-10-05",
+      "defendant_type": "both",
+      "defendants": [
+        "Flock Safety, Inc.",
+        "Town of Columbine Valley",
+        "Town of Bow Mar",
+        "Columbine Valley Police Chief Bret Cottrell",
+        "Sgt. Jamie Milliman"
+      ],
+      "plaintiffs": [
+        "Chrisanna Elser"
+      ],
+      "claim_type": "mixed",
+      "allegation_summary": "Plaintiff alleges a Flock camera search led police to wrongly issue her a criminal summons for a $25 porch theft, which was voided after she proved her innocence; claims include negligence, invasion of privacy, and unlawful search.",
+      "status": "filed",
+      "status_detail": "Filed October 5, 2026 in U.S. District Court for the District of Colorado.",
+      "last_updated": "2026-10-12",
+      "sources": [
+        "https://abcnews.com/Technology/woman-sues-flock-officer-after-cameras-alleged-mistaken/story?id=137063326",
+        "https://www.axios.com/local/arapahoe/2026/10/06/flock-safety-camera-lawsuit-colorado",
+        "https://motorbiscuit.com/denver-woman-files-massive-class-action-lawsuit-against-flock-cameras-utterly-disturbing"
+      ],
+      "content_hash": "sha256:3786ee2f28092dd11e828ec70e613712b561a66b6aad3718de525a4f303d73d5",
+      "first_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "verified": false
+    },
+    {
+      "id": "nocams-muskego-v-waukesha-county-2026-wi",
+      "case_name": "NoCams Muskego, et al. v. Waukesha County, et al.",
+      "court": "U.S. District Court for the Eastern District of Wisconsin (removed from Waukesha County Circuit Court)",
+      "state": "WI",
+      "filed_date": "2026-09-10",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "Waukesha County",
+        "11 Waukesha County municipalities"
+      ],
+      "plaintiffs": [
+        "NoCams Muskego",
+        "Citizens Defending Liberty",
+        "Donavan Haidinger"
+      ],
+      "claim_type": "fourth_amendment",
+      "allegation_summary": "Suit by Wisconsin Institute for Law & Liberty argues warrantless law-enforcement searches of Flock ALPR databases violate the Fourth Amendment and seeks to require a warrant before database searches.",
+      "status": "ongoing",
+      "status_detail": "Removed to federal court (E.D. Wis.) on Oct. 7, 2026 by defense counsel Crivello, Nichols & Hall, who also filed a motion to dismiss and sought a stay pending a Seventh Circuit ruling in a similar Illinois case.",
+      "last_updated": "2026-10-12",
+      "sources": [
+        "https://wislawjournal.com/2026/10/08/waukesha-county-flock-camera-lawsuit-moves-to-federal-court/",
+        "https://www.wisconsinrightnow.com/flock-cameras-are-constitutional-waukesha-communities-say-as-they-haul-wills-lawsuit-into-federal-court/",
+        "https://www.yahoo.com/news/us/articles/lawsuit-over-waukesha-county-flock-222453747.html"
+      ],
+      "content_hash": "sha256:c1fbe9468349049e224ce9ff732bbac722b8549abd454696eb2250c74742a80d",
+      "first_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "verified": false
+    },
+    {
+      "id": "greer-v-port-st-lucie-2026-fl",
+      "case_name": "Greer v. Flock Group, Inc., et al.",
+      "court": "U.S. District Court for the Southern District of Florida",
+      "state": "FL",
+      "filed_date": "2026-08-01",
+      "defendant_type": "both",
+      "defendants": [
+        "City of Port St. Lucie",
+        "Mayor Shannon Martin",
+        "Flock Group, Inc."
+      ],
+      "plaintiffs": [
+        "Dr. Steven E. Greer"
+      ],
+      "claim_type": "fourth_amendment",
+      "allegation_summary": "Pro se plaintiff alleges the city's combined network of 126 ALPR/license-plate-reader devices (53 Flock, 73 Axon) constitutes a warrantless search violating the Fourth Amendment.",
+      "status": "ongoing",
+      "status_detail": "Case No. 2:26-cv-14319-AMC; amended complaint filed August 2026, receiving renewed news coverage Oct. 11-12, 2026.",
+      "last_updated": "2026-10-12",
+      "sources": [
+        "https://cbs12.com/newsletter-daily/no-lawyer-no-law-degree-port-st-lucie-man-takes-on-flock-cameras-in-federal-court",
+        "https://tech-insider.org/port-st-lucie-doctor-sues-flock-safety-126-cameras-2026/"
+      ],
+      "content_hash": "sha256:41929faa8d5504bcb343544c13fed289018a62049e44115ee7695cc2943d6083",
+      "first_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
       "verified": false
     }
   ]
