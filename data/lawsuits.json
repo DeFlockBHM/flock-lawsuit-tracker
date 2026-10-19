@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-19",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -554,16 +554,15 @@
       "claim_type": "mixed",
       "allegation_summary": "Plaintiff alleges a Flock camera search led police to wrongly issue her a criminal summons for a $25 porch theft, which was voided after she proved her innocence; claims include negligence, invasion of privacy, and unlawful search.",
       "status": "filed",
-      "status_detail": "Filed October 5, 2026 in U.S. District Court for the District of Colorado.",
-      "last_updated": "2026-10-12",
+      "status_detail": "Filed Oct. 5, 2026 in U.S. District Court for the District of Colorado, Case No. 1:26-cv-04977. Plaintiff Chrisanna Elser alleges Flock camera data was used by a Columbine Valley Police Sgt. to wrongly summon her for a $25 package theft; names Flock Safety, Towns of Columbine Valley and Bow Mar, Police Chief Bret Cottrell, and Sgt. Jamie Milliman; seeks class treatment and punitive damages.",
+      "last_updated": "2026-10-19",
       "sources": [
         "https://abcnews.com/Technology/woman-sues-flock-officer-after-cameras-alleged-mistaken/story?id=137063326",
-        "https://www.axios.com/local/arapahoe/2026/10/06/flock-safety-camera-lawsuit-colorado",
-        "https://motorbiscuit.com/denver-woman-files-massive-class-action-lawsuit-against-flock-cameras-utterly-disturbing"
+        "https://www.axios.com/local/arapahoe/2026/10/06/flock-safety-camera-lawsuit-colorado"
       ],
-      "content_hash": "sha256:3786ee2f28092dd11e828ec70e613712b561a66b6aad3718de525a4f303d73d5",
+      "content_hash": "sha256:7ce9fb73a334e4f427131511902a84f0b3d6a42b766befe20bac8d4a034da9b3",
       "first_seen_at": "2026-10-12T21:58:52.797296+00:00",
-      "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "last_seen_at": "2026-10-19T19:38:12.283702+00:00",
       "verified": false
     },
     {
@@ -585,16 +584,14 @@
       "claim_type": "fourth_amendment",
       "allegation_summary": "Suit by Wisconsin Institute for Law & Liberty argues warrantless law-enforcement searches of Flock ALPR databases violate the Fourth Amendment and seeks to require a warrant before database searches.",
       "status": "ongoing",
-      "status_detail": "Removed to federal court (E.D. Wis.) on Oct. 7, 2026 by defense counsel Crivello, Nichols & Hall, who also filed a motion to dismiss and sought a stay pending a Seventh Circuit ruling in a similar Illinois case.",
-      "last_updated": "2026-10-12",
+      "status_detail": "As of Oct. 7, 2026, Waukesha County law enforcement defendants have responded to the lawsuit and the case has moved to federal court per WTMJ reporting.",
+      "last_updated": "2026-10-19",
       "sources": [
-        "https://wislawjournal.com/2026/10/08/waukesha-county-flock-camera-lawsuit-moves-to-federal-court/",
-        "https://www.wisconsinrightnow.com/flock-cameras-are-constitutional-waukesha-communities-say-as-they-haul-wills-lawsuit-into-federal-court/",
-        "https://www.yahoo.com/news/us/articles/lawsuit-over-waukesha-county-flock-222453747.html"
+        "https://flockscanner.com/news/topic/lawsuit/"
       ],
-      "content_hash": "sha256:c1fbe9468349049e224ce9ff732bbac722b8549abd454696eb2250c74742a80d",
+      "content_hash": "sha256:3e87d7f31541c59cd9a619531296addc0439f749c7db41cb1692ace7a2c78d3f",
       "first_seen_at": "2026-10-12T21:58:52.797296+00:00",
-      "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "last_seen_at": "2026-10-19T19:38:12.283702+00:00",
       "verified": false
     },
     {
@@ -624,6 +621,71 @@
       "content_hash": "sha256:41929faa8d5504bcb343544c13fed289018a62049e44115ee7695cc2943d6083",
       "first_seen_at": "2026-10-12T21:58:52.797296+00:00",
       "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "verified": false
+    },
+    {
+      "id": "murkerson-v-flock-coweta-county-2026-ga",
+      "case_name": "Murkerson v. Flock Group Inc., Coweta County, et al.",
+      "court": "N.D. Ga. (Newnan Division)",
+      "state": "GA",
+      "filed_date": "2026-10-08",
+      "defendant_type": "both",
+      "defendants": [
+        "Flock Group Inc. (Flock Safety)",
+        "Coweta County",
+        "Sheriff Lenn Wood",
+        "Deputy William Faulkner",
+        "Deputy Randall Faulkner",
+        "Unnamed Sheriff's Office employees"
+      ],
+      "plaintiffs": [
+        "Tyler Murkerson"
+      ],
+      "claim_type": "mixed",
+      "allegation_summary": "Proposed class action alleging Coweta County Sheriff's deputies used Flock's nationwide ALPR network to track plaintiff's vehicle in retaliation for a prior excessive-force lawsuit; alleges Flock failed to require verifiable investigative justification for searches, enabling misuse.",
+      "status": "filed",
+      "status_detail": "Filed Oct. 8, 2026 in U.S. District Court, Newnan Division. Seeks class-action status for Georgia drivers searched without documented investigative justification, plus damages and injunctive relief (record deletion, removal from watch lists).",
+      "last_updated": "2026-10-19",
+      "sources": [
+        "https://www.times-herald.com/news/lawsuit-alleges-ccso-used-flock-cameras-in-retaliation/article_d777d887-5e16-44e4-8a73-1e8c7f39b4d6.html",
+        "https://www.cbsnews.com/atlanta/news/georgia-man-says-coweta-deputies-used-flock-cameras-to-track-him-after-he-sued-them/",
+        "https://www.techspot.com/news/114184-flock-faces-lawsuit-after-deputies-allegedly-used-cameras.html"
+      ],
+      "content_hash": "sha256:39306343b2e2bf608cd3ef812de25454bb060944e20072443bf48227a55b930c",
+      "first_seen_at": "2026-10-19T19:38:12.283702+00:00",
+      "last_seen_at": "2026-10-19T19:38:12.283702+00:00",
+      "verified": false
+    },
+    {
+      "id": "aclu-eff-wi-v-green-bay-2026-wi",
+      "case_name": "ACLU of Wisconsin & EFF (ex rel. Wisconsin Council of Churches) v. City of Green Bay, et al.",
+      "court": "Wisconsin Supreme Court",
+      "state": "WI",
+      "filed_date": "2026-10-14",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "City of Green Bay",
+        "City of Milwaukee",
+        "City of Racine",
+        "City of Kenosha"
+      ],
+      "plaintiffs": [
+        "Wisconsin Council of Churches",
+        "Pastor Melissa Pagel"
+      ],
+      "claim_type": "fourth_amendment",
+      "allegation_summary": "Direct petition to the Wisconsin Supreme Court arguing warrantless police searches of ALPR/Flock databases violate the Wisconsin Constitution's prohibition on unreasonable searches, citing impacts on churchgoers' privacy (e.g., attending AA/NA meetings, domestic violence services).",
+      "status": "filed",
+      "status_detail": "Petition filed directly with Wisconsin Supreme Court Oct. 14, 2026, asking the court to take the case directly rather than proceed through lower courts; court has not yet decided whether to accept the petition.",
+      "last_updated": "2026-10-19",
+      "sources": [
+        "https://www.wpr.org/news/aclu-wisconsin-sues-warrantless-use-of-flock-cameras",
+        "https://www.aclu-wi.org/cases/bringing-the-fight-against-warrantless-surveillance-to-the-wisconsin-supreme-court/",
+        "https://fox11online.com/news/local/wi-aclu-lawsuit-asks-supreme-court-to-require-warrants-for-license-plate-reader-data"
+      ],
+      "content_hash": "sha256:ab6ea43cb451d2898ca4a372f8f265954a51077203dc4bbcf755b85391465703",
+      "first_seen_at": "2026-10-19T19:38:12.283702+00:00",
+      "last_seen_at": "2026-10-19T19:38:12.283702+00:00",
       "verified": false
     }
   ]
