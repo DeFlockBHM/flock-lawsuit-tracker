@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-26",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -260,16 +260,14 @@
       "allegation_summary": "Federal suit against Flock Safety alleging its ALPR network enables unauthorized mass collection and sharing of license-plate data, framed around privacy and data-broker-style claims; part of a wave of 2026 California suits over Flock sharing plate data with out-of-state and federal agencies.",
       "status": "ongoing",
       "settlement_amount_usd": null,
-      "status_detail": "At a Sept. 24, 2026 hearing in the consolidated In re Flock Group Inc. ALPR Litigation, Judge Vince Chhabria signaled plaintiffs likely lack Article III standing under California's ALPR law to proceed in federal court and indicated the case would likely be remanded to state court; a case management conference was set for Oct. 9, 2026 with no written ruling confirmed yet.",
-      "last_updated": "2026-10-12",
+      "status_detail": "At a Sept. 24, 2026 hearing on Flock's motion to dismiss the consolidated complaint (In re Flock Group Inc. ALPR Litigation, N.D. Cal., No. 3:26-cv-02375-VC, Judge Vince Chhabria), the judge tentatively found plaintiffs lack Article III standing on federal claims; a written ruling remains pending as of late October 2026.",
+      "last_updated": "2026-10-26",
       "sources": [
-        "https://news.bloomberglaw.com/litigation/flock-privacy-suit-appears-headed-back-to-california-state-court",
-        "https://www.courthousenews.com/flock-data-sharing-suit-likely-headed-back-to-state-court/",
         "https://settlementinsight.com/flock-safety-lawsuit"
       ],
-      "content_hash": "sha256:44252fba15ae2dbd04a317a5941425941d6e021e131e79dfa466caf4f0b0b23f",
+      "content_hash": "sha256:f29f29ec73dd859c7caa20af36f6cf4c3201c93098d94a8d751640fcc1caafd3",
       "first_seen_at": "2026-08-04T00:00:00.000000+00:00",
-      "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "last_seen_at": "2026-10-26T19:43:32.791802+00:00",
       "verified": false
     },
     {
@@ -410,14 +408,14 @@
       "claim_type": "mixed",
       "allegation_summary": "Nationwide proposed class action alleging Flock's 120,000+ camera ALPR network enables 'rampant' misuse by law enforcement for stalking/personal surveillance, produces inaccurate license-plate reads at scale, and that Flock has known of and downplayed such misuse as rare 'bad apple' conduct. Claims include invasion of privacy, negligence, negligent design, failure to warn, and intentional infliction of emotional distress.",
       "status": "ongoing",
-      "status_detail": "Flock was served September 1, 2026; the judge extended Flock's deadline to answer or otherwise respond to October 30, 2026.",
-      "last_updated": "2026-10-12",
+      "status_detail": "Flock Group Inc. was served on Sept. 1, 2026; the court extended Flock's deadline to answer or otherwise respond to October 30, 2026.",
+      "last_updated": "2026-10-26",
       "sources": [
         "https://settlementinsight.com/flock-safety-lawsuit"
       ],
-      "content_hash": "sha256:0b77b1671e7dfe3837ed81e35c2bb9cbd46ed5f08454de53c438fa8250d7a7d2",
+      "content_hash": "sha256:a6f7fd7b764ccb750f044e10fd8ac7b453ff448661b5c875244de717c3f08f4c",
       "first_seen_at": "2026-09-07T18:35:10.410205+00:00",
-      "last_seen_at": "2026-10-12T21:58:52.797296+00:00",
+      "last_seen_at": "2026-10-26T19:43:32.791802+00:00",
       "verified": false
     },
     {
@@ -686,6 +684,39 @@
       "content_hash": "sha256:ab6ea43cb451d2898ca4a372f8f265954a51077203dc4bbcf755b85391465703",
       "first_seen_at": "2026-10-19T19:38:12.283702+00:00",
       "last_seen_at": "2026-10-19T19:38:12.283702+00:00",
+      "verified": false
+    },
+    {
+      "id": "pana-aclu-v-san-diego-2026-ca",
+      "case_name": "Partnership for the Advancement of New Americans v. City of San Diego",
+      "court": "San Diego Superior Court",
+      "state": "CA",
+      "filed_date": "2026-09-30",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "City of San Diego",
+        "San Diego Police Department",
+        "Mayor Todd Gloria",
+        "Police Chief Scott Wahl"
+      ],
+      "plaintiffs": [
+        "Partnership for the Advancement of New Americans"
+      ],
+      "claim_type": "mixed",
+      "allegation_summary": "ACLU Foundation of San Diego & Imperial Counties, on behalf of refugee-rights group PANA, alleges the city's roughly 500-camera Flock ALPR network violates the California Constitution's right to privacy, citing a 30-day data retention period and nearly 250,000 searches of stored plate data last year. Plaintiffs seek a court order ending ALPR use, removing the cameras, and deleting collected data.",
+      "status": "filed",
+      "status_detail": "Case No. 26CU051879C, filed Sept. 30, 2026 in San Diego Superior Court; pending as of Oct. 26, 2026. Coincides with a San Diego city councilmember's public reversal on Flock ahead of a scheduled December council vote.",
+      "last_updated": "2026-10-26",
+      "sources": [
+        "https://ucsdguardian.org/2026/10/26/aclu-sues-san-diego-and-sdpd-over-use-of-flock-cameras/",
+        "https://www.kpbs.org/news/public-safety/2026/09/30/local-aclu-foundation-sues-city-of-san-diego-police-department-over-use-of-flock-cameras",
+        "https://www.daylightsandiego.org/aclu-and-pana-sue-to-end-flock-surveillance-in-san-diego/",
+        "https://www.latintimes.com/san-diego-councilmember-who-backed-flock-cameras-now-wants-them-gone-600178",
+        "https://openclassactions.com/news/license-plate-reader-lawsuits-warrants-october-2026.php"
+      ],
+      "content_hash": "sha256:bbf71c31d10dd1f3d7c49942bf4eca1626472babf396861ff218cb8eecda2c03",
+      "first_seen_at": "2026-10-26T19:43:32.791802+00:00",
+      "last_seen_at": "2026-10-26T19:43:32.791802+00:00",
       "verified": false
     }
   ]
