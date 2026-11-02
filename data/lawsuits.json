@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-11-02",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -674,16 +674,14 @@
       "claim_type": "fourth_amendment",
       "allegation_summary": "Direct petition to the Wisconsin Supreme Court arguing warrantless police searches of ALPR/Flock databases violate the Wisconsin Constitution's prohibition on unreasonable searches, citing impacts on churchgoers' privacy (e.g., attending AA/NA meetings, domestic violence services).",
       "status": "filed",
-      "status_detail": "Petition filed directly with Wisconsin Supreme Court Oct. 14, 2026, asking the court to take the case directly rather than proceed through lower courts; court has not yet decided whether to accept the petition.",
-      "last_updated": "2026-10-19",
+      "status_detail": "Oct. 22, 2026 coverage confirms the ACLU of Wisconsin lawsuit names multiple Wisconsin cities, including Milwaukee and Green Bay, as defendants over alleged misuse of Flock cameras; a separate related suit by the Wisconsin Institute for Law and Liberty targets Waukesha County municipalities over warrantless database use.",
+      "last_updated": "2026-11-02",
       "sources": [
-        "https://www.wpr.org/news/aclu-wisconsin-sues-warrantless-use-of-flock-cameras",
-        "https://www.aclu-wi.org/cases/bringing-the-fight-against-warrantless-surveillance-to-the-wisconsin-supreme-court/",
-        "https://fox11online.com/news/local/wi-aclu-lawsuit-asks-supreme-court-to-require-warrants-for-license-plate-reader-data"
+        "https://uwpexponent.com/news/2026/10/22/flock-safety-sued-by-aclu-over-camera-misuse/"
       ],
-      "content_hash": "sha256:ab6ea43cb451d2898ca4a372f8f265954a51077203dc4bbcf755b85391465703",
+      "content_hash": "sha256:9e9b6a89c7a92da7f146e178f0bd67cb3ba1c71d91e5b8364e739d9a250fd88e",
       "first_seen_at": "2026-10-19T19:38:12.283702+00:00",
-      "last_seen_at": "2026-10-19T19:38:12.283702+00:00",
+      "last_seen_at": "2026-11-02T22:35:19.146360+00:00",
       "verified": false
     },
     {
@@ -717,6 +715,32 @@
       "content_hash": "sha256:bbf71c31d10dd1f3d7c49942bf4eca1626472babf396861ff218cb8eecda2c03",
       "first_seen_at": "2026-10-26T19:43:32.791802+00:00",
       "last_seen_at": "2026-10-26T19:43:32.791802+00:00",
+      "verified": false
+    },
+    {
+      "id": "deterling-v-flock-safety-2026-tx",
+      "case_name": "Deterling v. Flock Safety, Inc.",
+      "court": "Federal court (Austin, TX)",
+      "state": "TX",
+      "filed_date": "2026-10-20",
+      "defendant_type": "flock_inc",
+      "defendants": [
+        "Flock Safety, Inc."
+      ],
+      "plaintiffs": [
+        "Megan Deterling"
+      ],
+      "claim_type": "other",
+      "allegation_summary": "Former Flock Safety accounts manager alleges gender discrimination and retaliation, claiming she was given fewer and lower-quality accounts than male colleagues, faced increased scrutiny, and was ridiculed and reassigned after raising concerns to management.",
+      "status": "filed",
+      "status_detail": "Lawsuit filed in federal court in Austin, TX; reported Oct. 20, 2026.",
+      "last_updated": "2026-11-02",
+      "sources": [
+        "https://www.yahoo.com/news/us/articles/austin-lawsuit-accuses-flock-safety-204547800.html"
+      ],
+      "content_hash": "sha256:f1b23023863c95927197fef8f32766ef78c9377ee6e74b779a20558cd1b3ea46",
+      "first_seen_at": "2026-11-02T22:35:19.146360+00:00",
+      "last_seen_at": "2026-11-02T22:35:19.146360+00:00",
       "verified": false
     }
   ]
