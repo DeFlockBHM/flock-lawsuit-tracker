@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-09",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -741,6 +741,60 @@
       "content_hash": "sha256:f1b23023863c95927197fef8f32766ef78c9377ee6e74b779a20558cd1b3ea46",
       "first_seen_at": "2026-11-02T22:35:19.146360+00:00",
       "last_seen_at": "2026-11-02T22:35:19.146360+00:00",
+      "verified": false
+    },
+    {
+      "id": "stop-lapd-spying-v-park-2026-ca",
+      "case_name": "Stop LAPD Spying Coalition v. Traci Park",
+      "court": "Los Angeles County Superior Court (exact court not specified in source)",
+      "state": "CA",
+      "filed_date": "2026-11-09",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "Los Angeles City Councilmember Traci Park (Council District 11 office)"
+      ],
+      "plaintiffs": [
+        "Stop LAPD Spying Coalition"
+      ],
+      "claim_type": "public_records",
+      "allegation_summary": "Coalition alleges Councilmember Traci Park's office failed to produce public records on communications with Flock Safety and related agencies (including the LA Police Foundation) after months of records requests.",
+      "status": "filed",
+      "status_detail": "Filed following four months of unsuccessful records requests; Park's office had not responded as of publication on Nov 9, 2026.",
+      "last_updated": "2026-11-09",
+      "sources": [
+        "https://knock-la.com/stop-lapd-spying-sues-traci-park-over-flock-safety-records/"
+      ],
+      "content_hash": "sha256:1c1902c314ddf9b5972f4de637c1e700000606611dc3c797ff51e4eaa133371c",
+      "first_seen_at": "2026-11-09T23:17:00.358717+00:00",
+      "last_seen_at": "2026-11-09T23:17:00.358717+00:00",
+      "verified": false
+    },
+    {
+      "id": "schmierer-v-home-depot-2026-ca",
+      "case_name": "In re Home Depot ALPR Litigation (Schmierer v. The Home Depot, Inc.)",
+      "court": "N.D. Cal.",
+      "state": "CA",
+      "filed_date": "2026-05-01",
+      "defendant_type": "other",
+      "defendants": [
+        "The Home Depot, Inc."
+      ],
+      "plaintiffs": [
+        "Unnamed (California shopper class representatives)"
+      ],
+      "claim_type": "data_broker_privacy",
+      "allegation_summary": "Class action alleges Home Depot installed Flock Safety ALPR cameras at entrances/exits of its 233 California store parking lots without required ALPR Privacy Act disclosures, and that the resulting vehicle/plate data was connected to Flock's nationwide network and made accessible to law enforcement, including out-of-state and federal agencies.",
+      "status": "ongoing",
+      "status_detail": "Consolidated in June 2026 as In re Home Depot ALPR Litigation, No. 3:26-cv-03103. Home Depot has moved to dismiss; no class certified; a September 1, 2026 court order set a jury trial for May 22, 2029; no settlement as of Nov 8, 2026.",
+      "last_updated": "2026-11-08",
+      "sources": [
+        "https://trypayout.app/settlements/home-depot-lawsuit",
+        "https://openclassactions.com/news/home-depot-license-plate-surveillance-class-action-complaint-filed.php",
+        "https://settlementinsight.com/home-depot-class-action-lawsuit"
+      ],
+      "content_hash": "sha256:e2d7387386bab4f5b4d65d6ee899f77ce54019d4b34c3cd2fc81cd661207694a",
+      "first_seen_at": "2026-11-09T23:17:00.358717+00:00",
+      "last_seen_at": "2026-11-09T23:17:00.358717+00:00",
       "verified": false
     }
   ]
