@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-24",
   "notes": "data/lawsuits.json is kept current by the weekly automated run (scripts/update_tracker.py), which only searches a ~7-10 day window each time. Because the repo launched empty, that narrow window meant the first scheduled run could only find lawsuits filed in roughly the prior week (Jimison) and structurally could not backfill older cases. This 2026-08-04 batch is a manual backfill research pass covering several notable Flock-related suits, added with verified:false pending human review. Aggregate 'as of' figures from external trackers should be checked against, not summed with, this list.",
   "aggregate_trackers": [],
   "lawsuits": [
@@ -260,14 +260,15 @@
       "allegation_summary": "Federal suit against Flock Safety alleging its ALPR network enables unauthorized mass collection and sharing of license-plate data, framed around privacy and data-broker-style claims; part of a wave of 2026 California suits over Flock sharing plate data with out-of-state and federal agencies.",
       "status": "ongoing",
       "settlement_amount_usd": null,
-      "status_detail": "At a Sept. 24, 2026 hearing on Flock's motion to dismiss the consolidated complaint (In re Flock Group Inc. ALPR Litigation, N.D. Cal., No. 3:26-cv-02375-VC, Judge Vince Chhabria), the judge tentatively found plaintiffs lack Article III standing on federal claims; a written ruling remains pending as of late October 2026.",
-      "last_updated": "2026-10-26",
+      "status_detail": "On Nov. 21, 2026, U.S. District Judge Vince Chhabria (N.D. Cal.) remanded the case to San Mateo County Superior Court, finding plaintiffs lacked Article III standing to pursue their first four claims (California ALPR Act) in federal court; remand was by agreement of the parties without reaching the fifth claim.",
+      "last_updated": "2026-11-24",
       "sources": [
-        "https://settlementinsight.com/flock-safety-lawsuit"
+        "https://www.mlex.com/mlex/data-privacy-security/articles/2558327",
+        "https://news.bloomberglaw.com/litigation/flock-privacy-suit-appears-headed-back-to-california-state-court"
       ],
-      "content_hash": "sha256:f29f29ec73dd859c7caa20af36f6cf4c3201c93098d94a8d751640fcc1caafd3",
+      "content_hash": "sha256:d142e55628b025ffee1fb01192637fda876330255257384447f53476c7c04874",
       "first_seen_at": "2026-08-04T00:00:00.000000+00:00",
-      "last_seen_at": "2026-10-26T19:43:32.791802+00:00",
+      "last_seen_at": "2026-11-24T01:28:15.053924+00:00",
       "verified": false
     },
     {
@@ -700,19 +701,16 @@
       ],
       "claim_type": "mixed",
       "allegation_summary": "ACLU Foundation of San Diego & Imperial Counties, on behalf of refugee-rights group PANA, alleges the city's roughly 500-camera Flock ALPR network violates the California Constitution's right to privacy, citing a 30-day data retention period and nearly 250,000 searches of stored plate data last year. Plaintiffs seek a court order ending ALPR use, removing the cameras, and deleting collected data.",
-      "status": "filed",
-      "status_detail": "Case No. 26CU051879C, filed Sept. 30, 2026 in San Diego Superior Court; pending as of Oct. 26, 2026. Coincides with a San Diego city councilmember's public reversal on Flock ahead of a scheduled December council vote.",
-      "last_updated": "2026-10-26",
+      "status": "ongoing",
+      "status_detail": "On Nov. 16, 2026, San Diego City Council voted unanimously to terminate the city's Flock Safety ALPR contract amid misuse allegations; Flock confirmed deactivation of all San Diego cameras by Nov. 20, 2026. Underlying ACLU/PANA suit against the city over ALPR use remains pending.",
+      "last_updated": "2026-11-24",
       "sources": [
-        "https://ucsdguardian.org/2026/10/26/aclu-sues-san-diego-and-sdpd-over-use-of-flock-cameras/",
-        "https://www.kpbs.org/news/public-safety/2026/09/30/local-aclu-foundation-sues-city-of-san-diego-police-department-over-use-of-flock-cameras",
-        "https://www.daylightsandiego.org/aclu-and-pana-sue-to-end-flock-surveillance-in-san-diego/",
-        "https://www.latintimes.com/san-diego-councilmember-who-backed-flock-cameras-now-wants-them-gone-600178",
-        "https://openclassactions.com/news/license-plate-reader-lawsuits-warrants-october-2026.php"
+        "https://www.kpbs.org/news/public-safety/2026/11/16/san-diego-city-council-could-cancel-flock-contract-following-alleged-sdpd-misuse",
+        "https://ucsdguardian.org/2026/11/23/san-diego-city-council-votes-to-end-flock-safety-contract/"
       ],
-      "content_hash": "sha256:bbf71c31d10dd1f3d7c49942bf4eca1626472babf396861ff218cb8eecda2c03",
+      "content_hash": "sha256:9db8c2d561c3f9be906ffa5a3da993c8f11458436382bffd0873c4c9beed5365",
       "first_seen_at": "2026-10-26T19:43:32.791802+00:00",
-      "last_seen_at": "2026-10-26T19:43:32.791802+00:00",
+      "last_seen_at": "2026-11-24T01:28:15.053924+00:00",
       "verified": false
     },
     {
@@ -819,6 +817,33 @@
       "content_hash": "sha256:c5489df41d8c5d664fb411d8d700f54754011d1b9801c66ee4f3e3d2e63a9402",
       "first_seen_at": "2026-11-16T23:11:24.765822+00:00",
       "last_seen_at": "2026-11-16T23:11:24.765822+00:00",
+      "verified": false
+    },
+    {
+      "id": "soto-v-san-diego-2026-ca",
+      "case_name": "Soto v. City of San Diego (Officer Ricardo Zambrano)",
+      "court": "San Diego Superior Court (state court, per news report)",
+      "state": "CA",
+      "filed_date": "2026-11-20",
+      "defendant_type": "deploying_agency",
+      "defendants": [
+        "City of San Diego",
+        "Officer Ricardo Zambrano"
+      ],
+      "plaintiffs": [
+        "Jorge Luis Soto"
+      ],
+      "claim_type": "other",
+      "allegation_summary": "A 19-year-old was shot by an SDPD officer after a Flock ALPR alert misidentified the vehicle he was riding in as stolen; the suit alleges the officer violated department policy and Soto's civil rights by firing without cause and without warning.",
+      "status": "filed",
+      "status_detail": "Lawsuit filed Nov. 20, 2026, following an earlier tort claim reported in October 2026; filed days after San Diego ended its Flock ALPR contract.",
+      "last_updated": "2026-11-24",
+      "sources": [
+        "https://timesofsandiego.com/crime/2026/11/23/man-shot-san-diego-police-officer-files-lawsuit/"
+      ],
+      "content_hash": "sha256:1ed54b5d80cde759b8c67e2c2a367c5c56a14f5102af417252316a63fe663a88",
+      "first_seen_at": "2026-11-24T01:28:15.053924+00:00",
+      "last_seen_at": "2026-11-24T01:28:15.053924+00:00",
       "verified": false
     }
   ]
